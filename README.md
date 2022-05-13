@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Demo](https://)
+- Live Site URL: [Live Demo](https://interactive-rating-component-o.netlify.app/)
 
 ## My process
 
