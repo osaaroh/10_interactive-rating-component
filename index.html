@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Interactive rating component | Frontend Mentor</title>
+</head>
+<body>
+
+  <main class = "card-rating">
+     <!-- Rating state start -->
+    <section class = "card-rating__feedback">
+      <div class="card-rating__image-container">
+        <img class="card-rating__image" src="images/icon-star.svg" alt="">
+      </div>
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+      <div class="card-rating__selector">
+        <label for="radioBtn1">
+          <input type="radio" name="rating" value="1" id="radioBtn1">
+          <span class="card-rating__rating-container">1</span>
+        </label>
+        <label for="radioBtn2">
+          <input type="radio" name="rating" value="2" id="radioBtn2">
+          <span class="card-rating__rating-container">2</span>
+        </label>
+        <label for="radioBtn3">
+          <input type="radio" name="rating" value="3" id="radioBtn3">
+          <span class="card-rating__rating-container">3</span>
+        </label>
+        <label for="radioBtn4">
+          <input type="radio" name="rating" value="4" id="radioBtn4">
+          <span class="card-rating__rating-container">4</span>
+        </label>
+        <label for="radioBtn5">
+          <input type="radio" name="rating" value="5" id="radioBtn5">
+          <span class="card-rating__rating-container">5</span>
+        </label>
+      </div> 
+      
+      <button id="submit">SUBMIT</button>
+    </section>
+    <!-- Rating state end -->
+  </main>
+  
+  <section class = "card-thanks hide">
+    <!-- Thank you state start -->
+      <div class = "card-thanks__container">
+        <img src="images/illustration-thank-you.svg" alt="">
+        <div class="card-thanks__select-info">You selected <!-- Add rating here --> out of 5</div>
+        <h1>  Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch! <span id="returnBtn">Change rating</span></p>
+      </div>
+    <!-- Thank you state end -->
+  </section>
+  
+  <script src="js/script.js"></script>
+  <noscript>Please enable JavaScript for full site functionality.</noscript>
+</body>
+</html>
