@@ -102,6 +102,10 @@ h1{
     margin-right: 0.5rem;
 }
 
+.card-rating__image-container{
+    cursor: default;
+}
+
 .rating {
     font-size: 1rem;
   }
@@ -141,6 +145,7 @@ h1{
     background-color: var(--orange);
     border: none;
     letter-spacing: 0.15rem;
+    cursor: pointer;
 }
 
 
